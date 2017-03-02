@@ -10,10 +10,10 @@ public class Car implements Serializable {
     int age;
     double mile;
 
-    public Car(String name, int age, double mile) {
-        this.name = name;
-        this.mile = mile;
-        this.age = age;
+    public Car(String n, int a, double m) {
+        name = n;
+        mile = m;
+        age = a;
     }
 
     public String getName() {
